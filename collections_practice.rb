@@ -50,7 +50,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |string, index|
-     index == 1
+     index == 1 ? 
       string
     else
       string << "s"
