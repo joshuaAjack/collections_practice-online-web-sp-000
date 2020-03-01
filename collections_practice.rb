@@ -30,3 +30,7 @@ def reverse_array(integers)
   new_array
 end
 
+def kesha_maker(array)
+  array.insert(2,$)
+end
+
