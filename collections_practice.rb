@@ -31,6 +31,6 @@ def reverse_array(integers)
 end
 
 def kesha_maker(array)
-  array.insert(2,$)
+  array.insert(2,"$")
 end
 
