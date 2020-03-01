@@ -27,7 +27,7 @@ def sort_array_char_count(array)
  
   def reverse_array(array)
     array = [12, 4, 35]
-     array.sort.reverse do |x, y| x.length <=> y.length
+     array.sort.reverse do |x, y| y <=> x
   end
 end
 
